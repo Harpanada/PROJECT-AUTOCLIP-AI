@@ -9,5 +9,3 @@ def Transcribe(video_path: Path , out_path: Path) -> str:
 
     Path(out_path).write_text(json.dumps(result, indent=2))
     return result
-
-
