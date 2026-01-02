@@ -1,4 +1,4 @@
-def Segments(words, min_dur=25, max_dur=55):
+def Segments(words, min_dur=35, max_dur=60):
     segments = []
     cur = []
     start = words[0]["start"]

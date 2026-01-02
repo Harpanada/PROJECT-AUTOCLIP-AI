@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 def Transcribe(video_path: Path , out_path: Path) -> str:
-    model = whisper.load_model("tiny")
+    model = whisper.load_model("base")
     result= model.transcribe(video_path,word_timestamps=True)
 
     Path(out_path).write_text(json.dumps(result, indent=2))
