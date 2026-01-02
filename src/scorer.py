@@ -1,7 +1,3 @@
-from pathlib import Path
-
-from matplotlib import text
-
 KEYWORDS = ["intinya", "jadi", "kesimpulannya", "yang penting", "tips"]
 
 def score_segments(seg):
@@ -14,3 +10,10 @@ def score_segments(seg):
        filler_penalty = text.count("eee") + text.count("uh")
 
        return keyword_score + length_score - filler_penalty
+
+def pick_top_segments(segments, k=5):
+    for seg in segments:
+        seg["score"] = score_segments(seg)
+
+    segments = sorted(segments, key=lambda x: x["score"], reverse=True)
+    return segments[:k]
