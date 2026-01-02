@@ -27,3 +27,6 @@ def Segments(words, min_dur=25, max_dur=55):
             if len(words) > words.index(w) + 1:
                 start = words[words.index(w) + 1]['start']
 
+    return segments
+
+
