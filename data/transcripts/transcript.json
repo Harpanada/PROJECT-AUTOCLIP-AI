@@ -1,0 +1,233 @@
+{
+  "text": " A great way to grip an audience's attention is to start with the word imagine. Getting the audience's attention in the first 10 seconds is super important.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.04,
+      "text": " A great way to grip an audience's attention is to start with the word imagine.",
+      "tokens": [
+        50364,
+        316,
+        869,
+        636,
+        281,
+        12007,
+        364,
+        4034,
+        311,
+        3202,
+        307,
+        281,
+        722,
+        365,
+        264,
+        1349,
+        3811,
+        13,
+        50584
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17023739549848768,
+      "compression_ratio": 1.4220183486238531,
+      "no_speech_prob": 0.005620068404823542,
+      "words": [
+        {
+          "word": " A",
+          "start": 0.0,
+          "end": 0.16,
+          "probability": 0.9467082023620605
+        },
+        {
+          "word": " great",
+          "start": 0.16,
+          "end": 0.4,
+          "probability": 0.9964956641197205
+        },
+        {
+          "word": " way",
+          "start": 0.4,
+          "end": 0.66,
+          "probability": 0.9985378980636597
+        },
+        {
+          "word": " to",
+          "start": 0.66,
+          "end": 0.82,
+          "probability": 0.9955381155014038
+        },
+        {
+          "word": " grip",
+          "start": 0.82,
+          "end": 1.02,
+          "probability": 0.9561160802841187
+        },
+        {
+          "word": " an",
+          "start": 1.02,
+          "end": 1.16,
+          "probability": 0.949353814125061
+        },
+        {
+          "word": " audience's",
+          "start": 1.16,
+          "end": 1.62,
+          "probability": 0.978929340839386
+        },
+        {
+          "word": " attention",
+          "start": 1.62,
+          "end": 1.92,
+          "probability": 0.998699426651001
+        },
+        {
+          "word": " is",
+          "start": 1.92,
+          "end": 2.32,
+          "probability": 0.9872690439224243
+        },
+        {
+          "word": " to",
+          "start": 2.32,
+          "end": 2.48,
+          "probability": 0.9936826229095459
+        },
+        {
+          "word": " start",
+          "start": 2.48,
+          "end": 2.8,
+          "probability": 0.9855334162712097
+        },
+        {
+          "word": " with",
+          "start": 2.8,
+          "end": 3.08,
+          "probability": 0.9967418313026428
+        },
+        {
+          "word": " the",
+          "start": 3.08,
+          "end": 3.2,
+          "probability": 0.9925994873046875
+        },
+        {
+          "word": " word",
+          "start": 3.2,
+          "end": 3.5,
+          "probability": 0.9945178627967834
+        },
+        {
+          "word": " imagine.",
+          "start": 3.5,
+          "end": 4.04,
+          "probability": 0.1378922462463379
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.42,
+      "end": 8.12,
+      "text": " Getting the audience's attention in the first 10 seconds is super important.",
+      "tokens": [
+        50584,
+        13674,
+        264,
+        4034,
+        311,
+        3202,
+        294,
+        264,
+        700,
+        1266,
+        3949,
+        307,
+        1687,
+        1021,
+        13,
+        50784
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17023739549848768,
+      "compression_ratio": 1.4220183486238531,
+      "no_speech_prob": 0.005620068404823542,
+      "words": [
+        {
+          "word": " Getting",
+          "start": 4.42,
+          "end": 4.6,
+          "probability": 0.9853148460388184
+        },
+        {
+          "word": " the",
+          "start": 4.6,
+          "end": 4.8,
+          "probability": 0.9869176745414734
+        },
+        {
+          "word": " audience's",
+          "start": 4.8,
+          "end": 5.34,
+          "probability": 0.9771240651607513
+        },
+        {
+          "word": " attention",
+          "start": 5.34,
+          "end": 5.72,
+          "probability": 0.9987389445304871
+        },
+        {
+          "word": " in",
+          "start": 5.72,
+          "end": 5.92,
+          "probability": 0.9818688035011292
+        },
+        {
+          "word": " the",
+          "start": 5.92,
+          "end": 6.02,
+          "probability": 0.9959201812744141
+        },
+        {
+          "word": " first",
+          "start": 6.02,
+          "end": 6.3,
+          "probability": 0.9972636699676514
+        },
+        {
+          "word": " 10",
+          "start": 6.3,
+          "end": 6.62,
+          "probability": 0.8581295609474182
+        },
+        {
+          "word": " seconds",
+          "start": 6.62,
+          "end": 7.02,
+          "probability": 0.9893571734428406
+        },
+        {
+          "word": " is",
+          "start": 7.02,
+          "end": 7.3,
+          "probability": 0.9925608038902283
+        },
+        {
+          "word": " super",
+          "start": 7.3,
+          "end": 7.76,
+          "probability": 0.9756295084953308
+        },
+        {
+          "word": " important.",
+          "start": 7.76,
+          "end": 8.12,
+          "probability": 0.9923539161682129
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}
