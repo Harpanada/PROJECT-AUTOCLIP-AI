@@ -1,4 +1,5 @@
 def Segments(words, min_dur=60, max_dur=120):
+    print("On Segmenter...")
     segments = []
     cur = []
     start = words[0]["start"]
@@ -27,24 +28,3 @@ def Segments(words, min_dur=60, max_dur=120):
 
     return segments
 
-
-#Debug Method
-# from pathlib import Path
-# import json
-
-# json_path = Path("./data/transcripts/transcript.json")
-
-# with open(json_path, "r", encoding="utf-8") as f:
-#     data = json.load(f)
-
-# words=[]
-# for seg in data["segments"]:
-#     if "words" in seg:
-#       words.extend(seg["words"])
-
-# segments= Segments(words)
-# # print("Total segments:", len(segments))
-# # print("Total words:", len(words))
-
-# for a in range(len(segments)):
-#     print(f"segment {a}: {segments[a]}\n")

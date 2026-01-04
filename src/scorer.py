@@ -1,6 +1,7 @@
 KEYWORDS = ["intinya", "jadi", "kesimpulannya", "yang penting", "tips"]
 
 def score_segments(seg):
+       print("On Scorer...")
        text= seg["text"].lower()
        keyword_score = sum(k in text for k in KEYWORDS)
 
