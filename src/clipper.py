@@ -9,7 +9,11 @@ def clip_video(video_path, start_time, end_time, output_path):
 
     # potong durasi
     clipped = video.subclipped(start_time, end_time)
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> a22b40e (Stop tracking data folder)
     w, h = clipped.size
     target_width = int(h * 9 / 16)
 
