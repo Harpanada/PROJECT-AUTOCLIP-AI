@@ -44,7 +44,8 @@ def score_segments(seg):
 
 
 
-def pick_top_segments(segments, k=5):
+def pick_top_segments(segments, k=10):
+    print("DEBUG first segment:", segments[0], type(segments[0]))
     for seg in segments:
         seg["score"] = score_segments(seg)
 
